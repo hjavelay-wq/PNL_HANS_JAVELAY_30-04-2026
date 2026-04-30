@@ -16,7 +16,7 @@ public class oPaciente extends oPersona {
     public void mostrarHistorial() {
         System.out.println("Historial Medico de " + nombre + ":");
         for (Map.Entry<String, String> entry : historialMedico.entrySet()) {
-            System.out.println("Motivo: " + entry.getKey() + " -- Detalles: " + entry.getValue());
+            System.out.println("Motivo: " + entry.getKey() + "+ Detalles: " + entry.getValue());
         }
     }
 }

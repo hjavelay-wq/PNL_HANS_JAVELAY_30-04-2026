@@ -19,9 +19,9 @@ public class oDoctor extends oPersona {
     }
 
     public void mostrarPacientes() {
-        System.out.println("Pacientes del Dr. " + nombre + ":");
+        System.out.println("Paciente del Dr. " + nombre + ":");
         for (oPaciente p : pacientes) {
-            System.out.println("- " + p.nombre);
+            System.out.println(" " + p.nombre);
         }
     }
 }
